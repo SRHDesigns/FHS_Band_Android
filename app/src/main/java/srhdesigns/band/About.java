@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import java.util.concurrent.ExecutionException;
 
+import srhdesigns.download.Downloader;
 
 
 public class About extends ActionBarActivity {

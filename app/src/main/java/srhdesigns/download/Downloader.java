@@ -1,4 +1,4 @@
-package srhdesigns.band;
+package srhdesigns.download;
 
 import android.os.AsyncTask;
 
@@ -17,7 +17,7 @@ public class Downloader extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... urls) {
         String response = "";
-        String url = urls[0].toString();
+        String url = urls[0];
         System.out.println("URL: " + url);
         DefaultHttpClient client = new DefaultHttpClient();
         HttpGet httpGet = new HttpGet(url);

@@ -22,6 +22,8 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
 
+import srhdesigns.download.Downloader;
+
 
 public class Main extends ActionBarActivity implements AdapterView.OnItemClickListener {
     static ArrayAdapter kArrayAdapter;
@@ -43,6 +45,8 @@ public class Main extends ActionBarActivity implements AdapterView.OnItemClickLi
         kPreferences = this.getSharedPreferences(
                 getString(R.string.kPrefs), Context.MODE_PRIVATE);
         kEditor = kPreferences.edit();
+        GetData();
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         kNameList = new ArrayList();
@@ -124,7 +128,7 @@ public class Main extends ActionBarActivity implements AdapterView.OnItemClickLi
         String Name = kNameList.get(position).toString();
         String ID = kIDList.get(position).toString();
         Toast.makeText(getApplicationContext(), "You selected " + Name, Toast.LENGTH_SHORT).show();
-        Intent openNewActivity = null;
+        Intent openNewActivity;
         switch (ID){
             case("about"):
                 openNewActivity = new Intent(getApplicationContext(), About.class);

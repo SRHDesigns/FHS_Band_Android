@@ -17,8 +17,8 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
+
+import srhdesigns.download.Downloader;
 
 
 public class Scales extends ActionBarActivity implements AdapterView.OnItemClickListener {
@@ -26,8 +26,6 @@ public class Scales extends ActionBarActivity implements AdapterView.OnItemClick
     static ArrayAdapter kArrayAdapter;
     static ArrayList kNameList = new ArrayList();
     static ArrayList kIDList = new ArrayList();
-    private static final ScheduledExecutorService worker =
-            Executors.newSingleThreadScheduledExecutor();
     boolean isVis = true;
 
     @Override
@@ -61,9 +59,9 @@ public class Scales extends ActionBarActivity implements AdapterView.OnItemClick
     private void GetScales() throws ExecutionException, InterruptedException {
         Downloader get = new Downloader();
         String g = get.execute(new String[] {Main.kBase + "Scales.plist"}).get();
-        Scales(g);
+        ProcessScales(g);
     }
-    private void Scales(String s) {
+    private void ProcessScales(String s) {
         System.out.println("String" +s);
         InputStream stream = new ByteArrayInputStream(s.getBytes());
 

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Documents</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>https://dl.dropboxusercontent.com/u/65267767/FHS%20Band/Camp%20Schedules-2.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Schedules</string>
+		</dict>
+	</array>
+	<key>Scales</key>
+	<array>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Flute-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Flute</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Oboe-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Oboe</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Clarinet-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Clarinet</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Bass-Clarinet-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Bass Clarinet</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Bassoon-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Bassoon</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Alto-Bari-Sax-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Alto/Bari Sax</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Tenor-Sax-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Tenor Sax</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Trumpet-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Trumpet</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/French-Horn-Audition-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>French Horn</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2012/04/Trombone-Euph.-Aud.-Scales1.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Trombone &amp; Euphonium</string>
+		</dict>
+		<dict>
+			<key>Link</key>
+			<string>http://www.friendswoodmustangband.org/wp-content/uploads/2014/05/Tuba-Aud.-Scales.pdf</string>
+			<key>Locked</key>
+			<false/>
+			<key>Description</key>
+			<string>Tuba</string>
+		</dict>
+	</array>
+</dict>
+</plist>

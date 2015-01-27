@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Friendswood</string>
+		<key>Address</key>
+		<string>702 Greenbriar Dr Friendswood, TX 77546</string>
+		<key>Lat</key>
+		<string>29.511730</string>
+		<key>Long</key>
+		<string>-95.210344</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Turner Stadium (Kingwood)</string>
+		<key>Address</key>
+		<string>1700 Wilson Rd, Humble, TX 77338</string>
+		<key>Lat</key>
+		<string>29.983063</string>
+		<key>Long</key>
+		<string>-95.244183</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Galena Park</string>
+		<key>Address</key>
+		<string>15025 Wallisville Road 77049 Texas</string>
+		<key>Lat</key>
+		<string>29.807456</string>
+		<key>Long</key>
+		<string>-95.175511</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Alamodome</string>
+		<key>Address</key>
+		<string>100 Montana St San Antonio, TX 78203</string>
+		<key>Lat</key>
+		<string>29.417185</string>
+		<key>Long</key>
+		<string>-98.478744</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Woodforest Bank Stadium</string>
+		<key>Address</key>
+		<string>19115 David Memorial Dr Shenandoah, TX 77385</string>
+		<key>Lat</key>
+		<string>30.185702</string>
+		<key>Long</key>
+		<string>-95.447526</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>The Rig (Pearland)</string>
+		<key>Address</key>
+		<string>3775 S. Main  Pearland, Texas 77581</string>
+		<key>Lat</key>
+		<string>29.539727</string>
+		<key>Long</key>
+		<string>-95.268909</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clear Brook</string>
+		<key>Address</key>
+		<string>4802 Farm-To-Market Road 2351, Friendswood, TX 77546</string>
+		<key>Lat</key>
+		<string>29.549305</string>
+		<key>Long</key>
+		<string>-95.187392</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clute Brazoswood</string>
+		<key>Address</key>
+		<string>302 Brazoswood Dr Clute, TX 77566</string>
+		<key>Lat</key>
+		<string>29.025618</string>
+		<key>Long</key>
+		<string>-95.410152</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Dickinson</string>
+		<key>Address</key>
+		<string>3800 Baker Dr, Dickinson, TX 77539</string>
+		<key>Lat</key>
+		<string>29.468107</string>
+		<key>Long</key>
+		<string>-95.031940</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Houston Clear Lake</string>
+		<key>Address</key>
+		<string>2929 Bay Area Blvd, Houston, TX 77058</string>
+		<key>Lat</key>
+		<string>29.582210</string>
+		<key>Long</key>
+		<string>-95.106093</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clear Creek</string>
+		<key>Address</key>
+		<string>2305 E Main St, League City, TX 77573</string>
+		<key>Lat</key>
+		<string>29.526697</string>
+		<key>Long</key>
+		<string>-95.073115</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clear Falls</string>
+		<key>Address</key>
+		<string>4380 Village Way, League City, TX 77573</string>
+		<key>Lat</key>
+		<string>29.509539</string>
+		<key>Long</key>
+		<string>-95.024692</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Clear Springs</string>
+		<key>Address</key>
+		<string>501 Palomino Ln League City, TX 77573</string>
+		<key>Lat</key>
+		<string>29.500231</string>
+		<key>Long</key>
+		<string>-95.142792</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Rights</key>
+	<array>
+		<string>SRHDesigns</string>
+		<string>http://stephendeveloper.x10.mx</string>
+		<string>MBBC</string>
+		<string>http://friendswoodmustangband.org</string>
+	</array>
+	<key>Copyright</key>
+	<array>
+		<string>HMSegementedControl</string>
+		<string>NJKWeb</string>
+		<string>SDWebImage</string>
+		<string>ZBar</string>
+	</array>
+</dict>
+</plist>

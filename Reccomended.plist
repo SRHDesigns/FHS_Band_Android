@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Garage Band</string>
+		<key>ID</key>
+		<string>408709785</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Google Maps</string>
+		<key>ID</key>
+		<string>585027354</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Tonal Energy Tuner</string>
+		<key>ID</key>
+		<string>497716362</string>
+	</dict>
+</array>
+</plist>

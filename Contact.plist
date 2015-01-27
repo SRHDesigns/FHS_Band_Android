@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Name</key>
+		<string>Greg Dick</string>
+		<key>Position</key>
+		<string>Head Band Director</string>
+		<key>Email</key>
+		<string>gdick@fisdk12.net</string>
+		<key>Can_Email</key>
+		<true/>
+		<key>Image</key>
+		<string>http://www.friendswoodmustangband.org/wp-content/uploads/2009/06/greg_dick.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Aaron Brown</string>
+		<key>Position</key>
+		<string>Band Director</string>
+		<key>Email</key>
+		<string>rabrown@fisdk12.net</string>
+		<key>Can_Email</key>
+		<true/>
+		<key>Image</key>
+		<string>http://www.friendswoodmustangband.org/wp-content/uploads/2009/06/aaron_brown.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Julio Sanchez</string>
+		<key>Position</key>
+		<string>Band Director</string>
+		<key>Email</key>
+		<string>jsanchez@fisdk12.net</string>
+		<key>Can_Email</key>
+		<true/>
+		<key>Image</key>
+		<string>http://www.friendswoodmustangband.org/wp-content/uploads/2009/06/julio_sanchez.jpg</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>Ron Barnett</string>
+		<key>Position</key>
+		<string>Colorguard Director</string>
+		<key>Email</key>
+		<string>rbarnett@fisdk12.net</string>
+		<key>Can_Email</key>
+		<true/>
+		<key>Image</key>
+		<string>http://www.friendswoodmustangband.org/wp-content/uploads/2013/06/Screen-Shot-2013-08-07-at-6.34.11-PM.png</string>
+	</dict>
+</array>
+</plist>

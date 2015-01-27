@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Show</key>
+		<true/>
+		<key>Header</key>
+		<string>About The Band</string>
+		<key>ID</key>
+		<string>about</string>
+		<key>Title</key>
+		<integer>2</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<true/>
+		<key>Header</key>
+		<string>Scales</string>
+		<key>ID</key>
+		<string>scales</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<false/>
+		<key>Header</key>
+		<string>Schedule</string>
+		<key>ID</key>
+		<string>schedule</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<true/>
+		<key>Header</key>
+		<string>Schools/Places</string>
+		<key>ID</key>
+		<string>schools</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<true/>
+		<key>Header</key>
+		<string>QR Reader</string>
+		<key>ID</key>
+		<string>QR</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<false/>
+		<key>Header</key>
+		<string>Reccomended Apps</string>
+		<key>ID</key>
+		<string>Reccomended</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+	<dict>
+		<key>Show</key>
+		<true/>
+		<key>Header</key>
+		<string>Directors/Board</string>
+		<key>ID</key>
+		<string>Contact</string>
+		<key>Title</key>
+		<integer>1</integer>
+	</dict>
+</array>
+</plist>

@@ -1,14 +1,13 @@
 package srhdesigns.band;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import java.util.concurrent.ExecutionException;
-
-import srhdesigns.download.Downloader;
+import srhdesigns.download.Download_HQ;
 
 
 public class About extends ActionBarActivity {
@@ -17,24 +16,18 @@ public class About extends ActionBarActivity {
 
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
+        Intent intent = getIntent();
+        intent.getExtras().getString("Name");
         Des = (TextView) findViewById(R.id.kTextView);
         getDes();
     }
 
     public void getDes(){
-        Downloader get = new Downloader();
-        try {
-            Description = get.execute(new String[] {getString(R.string.kbaseurl) + "About.txt"}).get();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        }
-       Des.setText(Description);
+        Download_HQ kDHQ = new Download_HQ();
+        Des.setText(kDHQ.ReadFileWithKey("About.txt", this));
     }
 
     @Override

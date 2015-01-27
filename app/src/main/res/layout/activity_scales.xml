@@ -9,14 +9,11 @@
         android:visibility="invisible"
         android:orientation= "vertical"
         />
-    <!--<Button android:text="Hide/Show"-->
-        <!--android:id="@+id/HS"-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:layout_alignParentBottom = "true">-->
-    <!--</Button>-->
-    <TextView android:text="@string/hello_world"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/webview"
+        android:layout_weight="1"
+        android:visibility="visible"/>
 
 </LinearLayout>

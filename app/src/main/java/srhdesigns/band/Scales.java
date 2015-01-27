@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -23,17 +25,18 @@ import srhdesigns.download.Downloader;
 
 public class Scales extends ActionBarActivity implements AdapterView.OnItemClickListener {
     ListView kList = null;
+    String kURLAdapter = "https://docs.google.com/gview?embedded=true&url=";
     static ArrayAdapter kArrayAdapter;
     static ArrayList kNameList = new ArrayList();
     static ArrayList kIDList = new ArrayList();
     boolean isVis = true;
-
+    WebView kbrowser;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scales);
-        GetData();
-
+        kNameList = new ArrayList();
+        kIDList = new ArrayList();
 
         kList = (ListView)findViewById(R.id.kList);
 
@@ -42,13 +45,25 @@ public class Scales extends ActionBarActivity implements AdapterView.OnItemClick
         kList.setAdapter(kArrayAdapter);
         kList.setOnItemClickListener(this);
         kList.setVisibility(View.GONE);
-
+        kbrowser = (WebView)findViewById(R.id.webview);
+        kbrowser.getSettings().setJavaScriptEnabled(true);
+        kbrowser.loadUrl(kURLAdapter+"http://friendswoodmustangband.org/wp-content/uploads/2012/04/Tenor-Sax-Audition-Scales1.pdf");
+        kbrowser.setWebViewClient(new WebViewClient(){
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url){
+                view.loadUrl(url);
+                return true;
+            }
+        });
+        GetData();
 
     }
+
     private void GetData(){
         try {
 
             GetScales();
+            //kbrowser.loadUrl(kIDList.get(0).toString());
         } catch (ExecutionException e) {
             e.printStackTrace();
         } catch (InterruptedException e) {
@@ -118,6 +133,7 @@ public class Scales extends ActionBarActivity implements AdapterView.OnItemClick
     }
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        System.out.println(kIDList.get(position));
+        System.out.println("Opening PDF: " + kIDList.get(position).toString());
+        kbrowser.loadUrl(kURLAdapter+kIDList.get(position).toString());
     }
 }

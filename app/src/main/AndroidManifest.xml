@@ -35,6 +35,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="srhdesigns.band.Main" />
         </activity>
+        <activity
+            android:name=".Directors"
+            android:label="@string/title_activity_directors">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="srhdesigns.band.Main" />
+        </activity>
+        <activity
+            android:name=".AppAbout"
+            android:label="@string/title_activity_app_about" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="srhdesigns.band.Main" />
+        </activity>
     </application>
 
 </manifest>

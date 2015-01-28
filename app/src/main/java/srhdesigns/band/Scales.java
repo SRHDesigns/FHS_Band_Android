@@ -1,5 +1,6 @@
 package srhdesigns.band;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -117,10 +118,12 @@ public class Scales extends ActionBarActivity implements AdapterView.OnItemClick
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        Intent openNewActivity;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            openNewActivity = new Intent(getApplicationContext(), AppAbout.class);
+            startActivity(openNewActivity);
         }
         else{
             kList.setVisibility(isVis ? View.GONE:View.VISIBLE);

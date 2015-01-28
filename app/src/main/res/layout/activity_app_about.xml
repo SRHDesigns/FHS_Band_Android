@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <PreferenceCategory android:title="@string/cat_app"
+        android:key="info"/>
+
+    <Preference android:key="dev1"
+        android:title="@string/dev1"
+        android:summary="Developer"
+        />
+    <Preference android:key="dev2"
+        android:title="@string/dev2"
+        android:summary="Developer"
+        />
+    <PreferenceCategory android:title="@string/cat_more"
+        android:key="info2"/>
+    <Preference android:key="src"
+        android:title="@string/app_src"
+        android:summary="On GitHub">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:data="http://www.github.com/SRHDesigns/FHS_Band_Android"
+        />
+    </Preference>
+    <Preference android:key="report"
+        android:title="@string/app_report"
+        />
+    <PreferenceCategory android:title="@string/cat_osl"
+        android:key="info3"/>
+</PreferenceScreen>

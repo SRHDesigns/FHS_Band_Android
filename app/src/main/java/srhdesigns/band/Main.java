@@ -110,10 +110,12 @@ public class Main extends ActionBarActivity implements AdapterView.OnItemClickLi
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        Intent openNewActivity;
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            return true;
+            openNewActivity = new Intent(getApplicationContext(), AppAbout.class);
+            startActivity(openNewActivity);
         }
 
         return super.onOptionsItemSelected(item);
@@ -134,6 +136,11 @@ public class Main extends ActionBarActivity implements AdapterView.OnItemClickLi
                 break;
             case ("scales"):
                 openNewActivity = new Intent(getApplicationContext(), Scales.class);
+                startActivity(openNewActivity);
+                break;
+
+            case ("Contact"):
+                openNewActivity = new Intent(getApplicationContext(), Directors.class);
                 startActivity(openNewActivity);
                 break;
             default:

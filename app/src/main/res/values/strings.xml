@@ -18,7 +18,13 @@
     <string name="cat_more">More</string>
     <string name="app_src">Source Code</string>
     <string name="app_report">Report a bug</string>
+    <string name="app_changes">Changelog</string>
 
     <string name="cat_osl">Open-Source Licenses</string>
+    <string name="osl-aniqroid">aniqroid-3.1.jar</string>
+    <string name="osl-commonsio">commons-io-2.4.jar</string>
+    <string name="osl-ddplist">dd-plist.jar</string>
+    <string name="osl-httpcore">httpcore-4.4.jar</string>
+    <string name="osl-materialnav">MaterialNavigationDrawer</string>
 
 </resources>

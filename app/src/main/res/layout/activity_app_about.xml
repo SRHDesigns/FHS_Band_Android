@@ -26,8 +26,12 @@
         />
     </Preference>
     <Preference android:key="report"
-        android:title="@string/app_report"
+        android:title="@string/app_report">
+        <intent
+        android:action="android.intent.action.VIEW"
+        android:data="http://github.com/SRHDesigns/FHS_Band_Android/issues/new"
         />
+    </Preference>
     <PreferenceCategory android:title="@string/cat_osl"
         android:key="info3"/>
 </PreferenceScreen>

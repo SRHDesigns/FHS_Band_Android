@@ -1,7 +1,7 @@
 ###Overview
 ****
-- [ ] Summary
-- [ ] To-Do
+- Summary
+- To-Do
 
 ###Summary
 ***

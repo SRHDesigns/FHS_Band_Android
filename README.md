@@ -6,7 +6,7 @@
 ###Summary
 ***
 Code for the FHS Band Android App. Source maintaned by Stephen Harlow and Kyle Huggins. 
-©SRHDesigns. All Rights Reserved. 
+©SRHDesigns. All Rights Reserved.
 
 ###To Do
 ***

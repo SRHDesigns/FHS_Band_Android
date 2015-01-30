@@ -1,5 +1,13 @@
 ###Overview
-Code for the FHS Band Android App
+****
+- [ ] Summary
+- [ ] To-Do
+
+###Summary
+***
+Code for the FHS Band Android App. Source maintaned by Stephen Harlow and Kyle Huggins. 
+©SRHDesigns. All Rights Reserved. 
+
 ###To Do
 ***
 - [x] ~~Relocate the PList Files From Dropbox to More Collaborative Service (GH Pages?)~~

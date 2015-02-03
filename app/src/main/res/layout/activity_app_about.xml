@@ -34,19 +34,19 @@
     </Preference>
     <PreferenceCategory android:title="@string/cat_osl"
         android:key="info3"/>
-    <Preference android:key="osl-anqroid"
-        android:title="@string/osl-aniqroid"
+    <Preference android:key="osl-ad"
+        android:title="@string/osl-ad"
         />
-    <Preference android:key="osl-commonsio"
-        android:title="@string/osl-commonsio"
+    <Preference android:key="osl-co"
+        android:title="@string/osl-co"
         />
-    <Preference android:key="osl-ddplist"
-        android:title="@string/osl-ddplist"
+    <Preference android:key="osl-dt"
+        android:title="@string/osl-dt"
         />
-    <Preference android:key="osl-httpcore"
-        android:title="@string/osl-httpcore"
+    <Preference android:key="osl-he"
+        android:title="@string/osl-he"
         />
     <Preference android:key="osl-materialnav"
-        android:title="@string/osl-materialnav"
+        android:title="@string/osl-mv"
         />
 </PreferenceScreen>

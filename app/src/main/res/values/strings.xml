@@ -21,10 +21,10 @@
     <string name="app_changes">Changelog</string>
 
     <string name="cat_osl">Open-Source Licenses</string>
-    <string name="osl-aniqroid">aniqroid-3.1.jar</string>
-    <string name="osl-commonsio">commons-io-2.4.jar</string>
-    <string name="osl-ddplist">dd-plist.jar</string>
-    <string name="osl-httpcore">httpcore-4.4.jar</string>
-    <string name="osl-materialnav">MaterialNavigationDrawer</string>
+    <string name="osl-ad">aniqroid-3.1.jar</string>
+    <string name="osl-co">commons-io-2.4.jar</string>
+    <string name="osl-dt">dd-plist.jar</string>
+    <string name="osl-he">httpcore-4.4.jar</string>
+    <string name="osl-mv">MaterialNavigationDrawer</string>
 
 </resources>

@@ -5,8 +5,9 @@
 
 ###Summary
 ***
-Code for the FHS Band Android App. Source maintaned by Stephen Harlow and Kyle Huggins. 
-©SRHDesigns. All Rights Reserved.
+Code for the FHS Band Android App. Source maintained by [Stephen Harlow](//github.com/SRHDesigns) and [Kyle Huggins](//github.com/epiquiem).
+
+© SRHDesigns. All Rights Reserved.
 
 ###To Do
 ***
@@ -25,6 +26,6 @@ Code for the FHS Band Android App. Source maintaned by Stephen Harlow and Kyle H
   - [ ] Better Slider Menu (Possibly)
 - [ ] Make the Schools Page
 - [ ] Make the QR Reader Page
-  - [ ] Find an Open Source QR Reader Library
+  - [ ] Find an Open Source QR Reader Library (Zbar, Zxing?)
 - [ ] Make the Directors Page
 - [ ] Implement Parse Push Notifications
